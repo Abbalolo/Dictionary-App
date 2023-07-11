@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500;600;700&family=Darker+Grotesque:wght@400;500;600;700;800&family=Fira+Code:wght@300;500;600;700&family=Heebo:wght@200;300;500;600;700&family=Montserrat:wght@300;400;500;600&family=Oswald:wght@300;400;500;600&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,300;1,400;1,600&display=swap");
+
+body {
+  margin: 0;
+  font-family: "poppins", sans-serif;
+  background-color: rgb(26, 238, 139);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+
+.container {
+  width: 300px;
+  height: 100%;
+  padding: 1em 2em;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 5px;
+}
+.input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  border-bottom: 2px solid rgb(26, 238, 139);
+  padding: .5em 1em;
+  width: 60%;
+  
+}
+
+.input-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+button {
+  outline: none;
+  background-color: rgb(26, 238, 139);
+  border-radius: 5px;
+  border: none;
+  padding: 0.5em 1em;
+  text-transform: capitalize;
+  display: flex;
+}
+
+.sound-con{
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  gap: 5px;
+  justify-content: space-between;
+}
+
+.figure{
+  border-left: 4px solid rgb(26, 238, 139);
+
+  
+}
+.one{
+  margin-left: .5em;
+  color: rgb(172, 174, 176);
+
+}
+.two{
+  color: rgb(172, 174, 176);
+}
+.def{
+  font-size: 14px; margin-left: 1em;
+
+  
+}
+
+.def::first-letter{
+  border-left: 4px solid rgb(26, 238, 139);
+  padding-left: .4em;
+}
+.header{
+  width: 100%;
+  text-align:start;
+  text-transform: capitalize;
+  font-weight: 600;
+  margin-left: .5em;
+  margin-bottom: .4em;
+}
